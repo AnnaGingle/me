@@ -13,9 +13,7 @@
   padding-top: 40px;
   color: inherit;
 }
-.img-fluid{
-  cursor: pointer;
-}
+
 @media (max-width:767px) {
   .projects-clean h2 {
     margin-bottom: 25px;
