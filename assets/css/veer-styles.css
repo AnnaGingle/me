@@ -1,5 +1,30 @@
+html{
+  scroll-behavior: smooth;
+}
+.splash-img {
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-image: url(assets/veer/splash.png);
 
-.col-md-12{
+}
+a:hover {
+    color: #0f7864;
+    text-decoration: underline;
+  }
+  
+  .bg-primary {
+    background-color: #18bc9c!important;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(59,198,171,.5);
+  }
+  
+  .col-md-12{
     background-color: #29282C;
 }
 .veer-h2{
@@ -42,4 +67,9 @@ color: #EEFEFF;
 }
 .container-competitive{
     padding-top: 25px;
+}
+@media (min-width: 768px)
+.header-blue .navbar, .navigation-clean {
+   padding-top: 0;
+    padding-bottom: 0px;
 }
