@@ -5,3 +5,13 @@
     
     font-style: italic;
 }
+.wbez-p {
+    padding: none;
+}
+.col-sm {
+    padding: 8px;
+    justify-content: center;
+}
+.col-sm img{
+    max-height: 400px;
+}
