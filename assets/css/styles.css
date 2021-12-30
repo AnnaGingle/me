@@ -113,12 +113,14 @@ h1{
   font-weight: 400; 
   font-size: 36px;
 }
+
 h5 {
   font-family: 'Noto Sans',  sans-serif; 
   font-size: 18px;
-  font-weight: 400; 
+  font-weight: 600; 
   margin-top: 4px;
 }
+
 .description {
   justify-content: left;
   object-position: left;
@@ -126,10 +128,7 @@ h5 {
 p.description {
   font-family: 'Noto Sans',  sans-serif; 
   text-align: left;
- 
   font-size: 16px;
-
-
   color: black;
 }
 
