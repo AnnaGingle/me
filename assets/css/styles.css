@@ -8,15 +8,7 @@ body {
   background-color: rgb(220,87,87);
 }
 
-a:hover {
-  color: #0f7864;
-  text-decoration: underline;
-}
 
-a:hover {
-  color: #0f7864;
-  text-decoration: underline;
-}
 
 a:active, a:focus, a:hover {
   color: #128f76;
@@ -26,15 +18,6 @@ a:active, a:focus, a:hover {
   color: #128f76;
 }
 
-a:hover {
-  color: #0f7864;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #0f7864;
-  text-decoration: underline;
-}
 
 .img-fluid, .img-thumbnail {
   max-width: 100%;
@@ -94,10 +77,6 @@ body {
   box-shadow: 0 0 0 .2rem rgba(59,198,171,.5);
 }
 
-a:hover {
-  color: #0f7864;
-  text-decoration: underline;
-}
 
 
 
@@ -111,10 +90,32 @@ a:hover {
 }
 
 /*PROJECTs*/
-.projects-clean{
-  
-}
+
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+}
+p.description {
+  text-align: left;
+justify-content: left;
+object-position: left;
+}
+.navigation-clean.navbar-light .navbar-nav .nav-link{
+  padding-left: 0px;
+}
+.navbar navbar-light navbar-expand-md navigation-clean p {
+margin-top: 18px;
+
+}
+/*TYPOHTAPHY*/
+h1{
+  font-family: 'Noto Sans', sans-serif; 
+  font-weight: 400; 
+  font-size: 36px;
+}
+h5 {
+  font-family: 'Noto Sans',  sans-serif; 
+  font-size: 18px;
+  font-weight: 400; 
+  margin-top: 4px;
 }
