@@ -86,7 +86,7 @@ body {
 
 /*HEADER*/
 .subtitle-container p{
-  font-family: 'Libre Caslon Text', serif;
+  font-family: 'noto sans', serif;
 }
 
 /*PROJECTs*/
@@ -95,17 +95,17 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-p.description {
-  text-align: left;
-justify-content: left;
-object-position: left;
-}
+
+/*NAV*/
 .navigation-clean.navbar-light .navbar-nav .nav-link{
   padding-left: 0px;
 }
 .navbar navbar-light navbar-expand-md navigation-clean p {
 margin-top: 18px;
-
+}
+.navbar navbar-light navbar-expand-md navigation-clean{
+  padding-top: 18px;
+ 
 }
 /*TYPOHTAPHY*/
 h1{
@@ -118,4 +118,37 @@ h5 {
   font-size: 18px;
   font-weight: 400; 
   margin-top: 4px;
+}
+.description {
+  justify-content: left;
+  object-position: left;
+}
+p.description {
+  font-family: 'Noto Sans',  sans-serif; 
+  text-align: left;
+ 
+  font-size: 16px;
+
+
+  color: black;
+}
+
+.date {
+  text-align: left;
+  justify-content: left;
+  object-position: left;
+  margin-bottom: 4px;
+  margin-top: 8px;
+  padding: 0px;
+}
+
+p.date  {
+  font-family: 'Noto Sans',  sans-serif; 
+  font-size: 12px;
+  color: black;
+}
+
+.projects-clean .item .description  {
+  margin-top: 4px;
+ 
 }
