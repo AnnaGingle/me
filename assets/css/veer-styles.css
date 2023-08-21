@@ -11,11 +11,15 @@ html{
     background-image: url(assets/veer/splash.png);
 
 }
+
 a:hover {
     color: #0f7864;
     text-decoration: underline;
   }
-  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
   .bg-primary {
     background-color: #18bc9c!important;
   }
