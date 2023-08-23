@@ -108,8 +108,13 @@ margin-top: 18px;
  
 }
 .nav-item{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500; 
+  color: black; 
+  text-decoration: none;
   
 }
+
 /*TYPOHTAPHY*/
 h1{
   font-family: 'Noto Sans', sans-serif; 
