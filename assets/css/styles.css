@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Libre Caslon Text', serif;
+  font-family: 'Noto Sans', regular, sans-serif;
 
 }
 .page-wrapper{
@@ -96,7 +96,7 @@ body {
   padding-right: 0;
 }
 
-/*NAV*/
+/*NAVIGATION*/
 .navigation-clean.navbar-light .navbar-nav .nav-link{
   padding-left: 0px;
 }
