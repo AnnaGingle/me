@@ -86,6 +86,13 @@
 </div>    
 
 <div class="container">
+    <!--WIP banner-->
+    <div class="card">
+    <div class="card-body" style="background-color: #faf3d1;">
+        ⚠️ This is a work in progress
+    </div>
+    </div>
+
     <!--Date-->
     <div style="padding-top: 32px; padding-bottom: 15px;">
          <p style="font-family: 'Noto Sans', regular, sans-serif; color: #3D4551;">
@@ -96,26 +103,31 @@
    <div style="padding-bottom: 15px;">
         <h1>Navigating new waters: User research in the face of unfamiliar business rules</h1>
         <h5ß> 
-           Currently, I am a contractor with the United States Transportation Command (USTC) as a user experience designer and researcher. This is my companys, Truss, longest-running project. 
+           Currently, I work at Truss on their longest-running project. I am a contractor with the United States Transportation Command (USTC) as a user experience designer and researcher.
         &nbsp;</h5ß>
     </div>
-   
 
 <!--My role ----------------------------->
     <div style="padding-top: 15px;">
         <!--Subtitle-->
         <h5>My role &nbsp;</h5>
-        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
-        WIP
-        </p>
+        <ul>
+            <li><b>Planning</b>: Script writing,</li>
+            <li><b>Planning</b>: </li>
+            <li><b>Planning</b>: </li>
+            <li><b>Planning</b>: </li>
+        </ul>
     </div>
     <!--Background ----------------------------->
     <div style="padding-top: 15px;">
         <!--Subtitle-->
         <h5>Background &nbsp;</h5>
         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
-        WIP
+         “We partnered with the Defense Digital Service and the U.S. Transportation Command (USTRANSCOM) to create MilMove, a digital system for moving U.S. service members and their families’ personal belongings.
+            The challenge: Completely redesign and rebuild the system for planning, requesting, approving, procuring, scheduling, paying for, and tracking the movement of personal property for 430,000 military personnel each year. This comprises 15% of all moves performed in the U.S.
+            Why? Moving is stressful even when it goes well. Unfortunately, the experience most service members have had with the existing system has been riddled with inconsistent processes from location to location, confusing directions, and tedious, time-consuming, and ultimately unnecessary processes. It’s a major factor in why moving is the second-most-traumatic military experience for service members, trailing only active combat deployment.”
         </p>
+        <p>- <a href="https://truss.works/milmove-case-study">Truss</a></p>
     </div>
     <!--Purpose of this work ----------------------------->
     <div style="padding-top: 15px;">
@@ -132,7 +144,10 @@
         <h3>Business case&nbsp;</h3>
         <h5>Reduce risk before the MVP phase-in by observing real people use the software in the context they will use it.&nbsp;</h5>
         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
-        WIP
+            Before this research study, we had only tested the product in the context of a feature. We wanted 
+            to observe real users working on a set of realistic scenarios at each step. We built three new web 
+            applications made up of a customer, office, and admin app. Our research was focused on the office app. 
+            The office app is comprised of 4 different interfaces that support the needs of five job roles.  
         </p>
     </div>
        <!-- img-->
@@ -185,9 +200,11 @@
             The participants were a small but representative number of users.
         </p>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>3 service counselors</li>
+            <li>3 special service coordinators</li>
+            <li>3 service coordinators</li>
+            <li>3 quality assurance evaluators</li>
+            <li>2 Customer service representatives</li>
         </ul>
         <p>IMAGE HERE----------------------------------------------</p>
 
@@ -212,16 +229,16 @@
     <div style="padding-top: 15px;">
         <!--title-->
         <h1>Choices, challenges, or constraints that may have impacted results&nbsp;</h1>
-        <!--Subtitle-->
-        <h2 class="mmh2">The software followed new business rules our users weren’t working with today.&nbsp;</h2>
+        <!--The software followed new business rules our users weren’t working with today.      --------------------->
+        <h2 style="color: rgb(16, 16, 139);">The software followed new business rules our users weren’t working with today.&nbsp;</h2>
         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
             GHC contract is one aspect of the broader plan to improve the service member experience of military moves. MilMove works to the rules outlined in the GHC contract. At the time of the research, the GHC contract hadn’t begun. As a result, the office users were unfamiliar with the new business rules.
             We knew that when the MVP launches, the office users will be required to complete training focused on the new business rules before using the software. As users were not aware of these new business rules, this was a major obstacle in meeting our business case and research objectives. 
         </p>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Facilitators spent the majority of the session explaining new business rules rather than observing the user interact with the software.</li>
+            <li>A golden rule of usability testing is not to lead the participant. We found ourselves having to explain these complex rules. Facilitators and observers alike noticed we were leading the users as a result. </li>
+            <li>Facilitators and clients found themselves tripping over the business rules to which our software works. This was a new challenge because the design leads (including myself) and the client had only worked on pieces of functionality where users typically had to understand 1 new business rule rather than all the new business rules.</li>
         </ul>
          <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
            After we wrapped up the research trip, we began sharing usability issues with the client as 
@@ -238,25 +255,44 @@
         <h3>How might we?&nbsp;</h3>
         <!--Subtitle-->
         <h5>How might tease apart usability issues and training issues?&nbsp;</h5>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+        1. The research team conducted a longitudinal study to track users' progress over time, observing whether issues related to usability decrease as users become more familiar with the system. With this data, we were able to focus on the problems that persisted over time.
+        </p>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+        2. We used the findings from this research study to plan the upcoming study tasks. We were able to drill into the parts of the software with the most usability issues. As a result, we were able to implement these fixes before launching the MVP.
+        </p>
+       
          <!--Subtitle-->
         <h5>How might we simulate the most realistic situation where the office users will be trained on the business rule changes?&nbsp;</h5>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            1. By bridging the gap between our users' current practices and the new business rules embedded in the software.
+        </p>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+        2. Before the next research study, my client and I worked together to create the first iteration of training that covered the new contract rules and our software. We shared the training with our participants and asked them to complete the training before the session. All of the participants completed the training. This was extremely valuable because not only were users aware of their upcoming process changes, but we were able to find gaps in the training that our clients fixed before launch.
+        </p>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            3. Created a TDLR of the business rules for our clients to include in an email before the research begins.
+        </p>
+         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            4. Before the on-site research began, our clients set up a pre-briefing call. Going forward, we included a section about the business rule changes.
+        </p>
+         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            5. We began inviting office users to our client's monthly demos. During the demos, our clients showed off the new MilMove functionality and explained the business rules.
+        </p>
+         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            6. Shared a TLDR of the new and changed business rules for users to reference during usability sessions.
+        </p>
+         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            7. When users were unfamiliar with a business rule, we asked who would they ask for help if we weren't there.  
+        </p>
          <!--Subtitle-->
         <h5>How might the research team and our clients get a shared understanding of the novel business rules that the software adheres to?&nbsp;</h5>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+         <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            1. The design team created a list of business rules to reference during the session.
+        </p>
+        <p class="text-black" style="font-family: 'Noto Sans', regular, sans-serif;">
+            2. Our upcoming research study focused on the areas of the software with the most usability issues. The research team had advocated for this from the start, but our client believed testing the whole app would bring the best results. We were able to bring the client along with us in our belief that focused planning reduces complexity and level of effort.
+        </p>
     </div>
 
 <!--Footer-->
