@@ -1,2 +1,2 @@
-# portfolio2020
-My portfolio!!
+# My portfolio
+Made using HTML, CSS, & Bootstrap.
